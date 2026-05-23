@@ -48,9 +48,10 @@ main {
   border-radius: 10px;
   font-family: Verdana;
 }
-form {
-  background: white;
+.form-group {
+  background: rgb(255, 255, 255);
 }
+
 button {
   border: 0;
   border-radius: 10px;
@@ -77,20 +78,21 @@ select {
   height: 40px;
   width: 100%;
   padding: 0;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   margin: 0;
   box-sizing: border-box;
   border-radius: 6px;
   padding-left: 10px;
   font-family: Verdana;
   font-size: 14px;
-  color: #333;
+  color: #000000;
+  background: white;
 }
 button {
   height: 40px;
   width: 100%;
   font-size: 16px;
-  color: #333;
+  color: #000000;
 }
 
 button:hover {
@@ -98,7 +100,7 @@ button:hover {
   cursor: pointer;
 }
 button:active {
-  background: #333;
+  background: #818181;
   color: white;
 }
 button:disabled {
