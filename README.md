@@ -31,4 +31,4 @@ Criar um formulário com 4 campos que atualiza uma barra de progresso em tempo r
 npm install
 npm run dev
 
-Desafio proposto por @fernandev 
+- Desafio proposto por @fernandev 
