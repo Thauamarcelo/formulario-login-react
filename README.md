@@ -1,15 +1,34 @@
-# fernandev
+# 📋 Formulário com Barra de Progresso
 
-## React Interview Challenge #03
+Projeto desenvolvido durante o curso **Fernandev - React Interview Challenge #03**.
 
-E aí dev, tudo bem? Trouxe pra você mais um desafio de entrevista para que você possa treinar em casa e aprimorar suas habilidades.
+## 🎯 Objetivo
 
-Dessa vez temos um formulário que deve alterar uma barra de progresso conforme seus campos vão sendo digitados pelo usuário. Muitos conceitos usados nesse desafio!
+Criar um formulário com 4 campos que atualiza uma barra de progresso em tempo real conforme o usuário preenche os dados, aplicando validações em cada campo.
 
-Preste bem atenção às instruções dentro do arquivo App.jsx e bora codar!
+## 🛠️ Tecnologias aprendidas
 
-**Se você curtir esse conteúdo, deixa uma STAR aí nesse repo, porque isso me motiva a trazer mais conteúdos desse gênero.**
+- **React** com Hooks (useState)
+- **Controlled Components**
+- **Validação de formulários**
+- **Barra de progresso dinâmica**
+- **CSS Modules / CSS puro**
 
-## Resolução do desafio
+## 📝 Funcionalidades implementadas
 
-https://youtu.be/ngcH4e2RTUM
+- ✅ Campo **Nome Completo** - valida mínimo de 2 nomes
+- ✅ Campo **E-mail** - validação com RegEx
+- ✅ **Select** de Estado Civil
+- ✅ **Radio buttons** de Gênero
+- ✅ Barra de progresso: 25% por campo válido
+- ✅ Botão desabilitado até todos os campos estarem válidos
+- ✅ Alert de sucesso ao enviar
+- ✅ Limpeza dos campos após envio
+
+## 🚀 Como executar
+
+```bash
+npm install
+npm run dev
+
+Desafio proposto por @fernandev 
